@@ -1,4 +1,7 @@
 # Tameri Guide for writers - http://www.tameri.com/write/coolenglish.html
+   # test comment
+#another test
+ #yet another test   
 abate (v) - to lessen; to lower the intensity
 abbreviate (v) - shorten
 aberrant (adj) - abnormal
