@@ -68,29 +68,50 @@ horrific (adj)
 hurricane (n)
 insidious (adj)
 invasion (n)
-jail
-jeopardy
-lawsuit
-looming
-lunatic
-lurking
-meltdown
-mired
-mistake
-murder
-nightmare
-painful
-pale
-panic
-peril
-piranha
-pitfall
-plague
-played
-plummet
-plunge
-poison
-pummel
+jail (n)
+jail (v)
+jailed (adj)
+jeopardy (n)
+lawsuit (n)
+looming (adj)
+lunatic (n)
+lurking (adj)
+meltdown (n)
+mired (v)
+mired (adj)
+mistake (n)
+mistaken (adj)
+mistakenly (adv)
+murder (n)
+murdered (adj)
+nightmare (n)
+nightmareish (adj)
+pain (n)
+painful (adj)
+painfully (adv)
+pale (n)
+pale (adj)
+panic (n)
+panic-stricken (adj)
+peril (n)
+perilous (adj)
+piranha (n)
+pitfall (n)
+plague (n)
+plagued (adj)
+play (n)
+played (v)
+playful (adj)
+playfully (adv)
+plummet (n)
+plummeted (v)
+plunge (n)
+plunged (v)
+poison (n)
+poison (v)
+poisoned (adj)
+pummel (v)
+pummeled (adj)
 poor
 prison
 pus

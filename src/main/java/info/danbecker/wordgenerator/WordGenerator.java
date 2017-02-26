@@ -29,7 +29,7 @@ public class WordGenerator {
 	public static final org.slf4j.Logger LOGGER = org.slf4j.LoggerFactory.getLogger(WordGenerator.class);
 
 	// options
-	public static int numPatterns = 2;
+	public static int numPatterns = 3;
 	public static String pattern = "ajn";
 	
 	public static Map<WordType,List<Word>> wordLists = new HashMap<>();
