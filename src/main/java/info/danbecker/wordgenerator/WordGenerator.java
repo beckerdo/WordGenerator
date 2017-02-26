@@ -28,6 +28,8 @@ import org.apache.commons.cli.ParseException;
 public class WordGenerator {
 	public static final org.slf4j.Logger LOGGER = org.slf4j.LoggerFactory.getLogger(WordGenerator.class);
 
+	public static String WORD_TYPE_DELIM = ",";
+
 	// options
 	public static int numPatterns = 3;
 	public static String pattern = "ajn";
@@ -70,7 +72,7 @@ public class WordGenerator {
 				StringBuffer phrase = new StringBuffer();
 				for (int wordi = 0; wordi < patternType.length; wordi++) {
 					if ( wordi > 0 ) {
-						phrase.append(" " );
+						phrase.append(" ");
 					}
 					List<Word> words = wordLists.get( patternType[wordi] );
 					if ( null != words && words.size() > 0 ) {						
@@ -137,9 +139,25 @@ public class WordGenerator {
             Word word = parseWordLine(line);
             if ( null != word ) {
             	// System.out.println( "word " + wordCount + "=" + word.text);
-            	WordType type = word.type;            	
-            	wordLists.get(type).add(word);
-            	wordCount++;
+            	String types = word.type;
+            	if ( types.contains(WORD_TYPE_DELIM) ) {
+            		// Single word has multiple types
+            		String [] typea = types.split( WORD_TYPE_DELIM );
+            		for ( String type: typea ) {
+                		WordType wordType = WordType.fromAbbreviation(type);
+            			Word currWord = new Word( word.text, type, word.desc );
+            			wordLists.get(wordType).add(currWord);            		
+                    	wordCount++;            			
+            		}
+            	} else {
+            		WordType wordType = WordType.fromAbbreviation(word.type);
+            		if ( null != wordType ) {
+            			wordLists.get(wordType).add(word);            		
+            			wordCount++;
+            		} else {
+            			LOGGER.warn( "Uknow word type {} for word test {}", word.type, word.text );
+            		}
+            	}
             }
 		}
 		scanner.close();
@@ -179,11 +197,11 @@ public class WordGenerator {
         */        
         // scanner.useDelimiter("\\s*\\(\\)-\\s*");
         // # Comment | word (type) | word
-        scanner.findInLine("\\s*(#)\\s*(.*)|\\s*(\\w+)\\s*\\((\\w+)\\)\\s*(-*)\\s*(.*)|\\s*(.*)\\s*");
+        scanner.findInLine("\\s*(#)\\s*(.*)|\\s*(\\w+)\\s*\\(([,\\w]*)\\)\\s*(-*)\\s*(.*)|\\s*(.*)\\s*");
         MatchResult result = scanner.match();
         int groupCount = result.groupCount();
         // for ( int i = 0; i < groupCount + 1; i++ ) {
-        //     System.out.println( "   " +  i + " " + result.group( i ));         	
+        //      System.out.println( "   " +  i + " " + result.group( i ));         	
         // }
         String comment = null;
         if( groupCount > 1 && "#".equals(result.group(1) )) {
@@ -195,12 +213,9 @@ public class WordGenerator {
         if ( groupCount > 3 ) {
         	text = result.group( 3 );
     	}        
-    	WordType type = null;
+    	String typeStr = null; // might be a CSR list
         if ( groupCount > 4 ) {
-        	String typeStr = result.group( 4 );
-        	if ( null != typeStr ) {
-        		type = WordType.fromAbbreviation( typeStr.toLowerCase() );
-        	} 
+        	typeStr = result.group( 4 );
         }
         String desc = null;
         if ( groupCount > 5 ) {
@@ -210,10 +225,10 @@ public class WordGenerator {
         	}        	
         }
         scanner.close();
-        if ( null != comment || null == text || null == type ) {
+        if ( null != comment || null == text || null == typeStr ) {
         	return null;
         }
-       	return new Word( text, type , desc);
+       	return new Word( text, typeStr, desc);
    }
 
 }
