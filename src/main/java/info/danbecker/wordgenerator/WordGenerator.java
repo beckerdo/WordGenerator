@@ -178,26 +178,41 @@ public class WordGenerator {
         (ab|cd) Matches ab or cd
         */        
         // scanner.useDelimiter("\\s*\\(\\)-\\s*");
-        scanner.findInLine("\\s*(#)\\s*(.*)|\\s*(\\w+)\\s*\\((\\w+)\\)\\s*-\\s*(.*)");
+        // # Comment | word (type) | word
+        scanner.findInLine("\\s*(#)\\s*(.*)|\\s*(\\w+)\\s*\\((\\w+)\\)\\s*(-*)\\s*(.*)|\\s*(.*)\\s*");
         MatchResult result = scanner.match();
         int groupCount = result.groupCount();
-        // if ( groupCount > 0 ) {
-        //     System.out.println( "input=" + result.group(0));        	
+        // for ( int i = 0; i < groupCount + 1; i++ ) {
+        //     System.out.println( "   " +  i + " " + result.group( i ));         	
         // }
-        if( groupCount > 1 && "#".equals( result.group ( 1  ))) {
-            // System.out.println( "comment=" + result.group(2));
-            scanner.close();
-            return null;
+        String comment = null;
+        if( groupCount > 1 && "#".equals(result.group(1) )) {
+        	if ( groupCount > 2) {
+        		comment = result.group( 2 );
+        	}
         }
-        String text = result.group( 3 );
-        if ( null == text || text.startsWith( "#" )) {
-        	scanner.close();
+        String text = null;
+        if ( groupCount > 3 ) {
+        	text = result.group( 3 );
+    	}        
+    	WordType type = null;
+        if ( groupCount > 4 ) {
+        	String typeStr = result.group( 4 );
+        	if ( null != typeStr ) {
+        		type = WordType.fromAbbreviation( typeStr.toLowerCase() );
+        	} 
+        }
+        String desc = null;
+        if ( groupCount > 5 ) {
+        	String delim = result.group( 5 );
+        	if ( null != delim && groupCount > 6 ) {
+        		desc = result.group( 6 );
+        	}        	
+        }
+        scanner.close();
+        if ( null != comment || null == text || null == type ) {
         	return null;
         }
-        String typeStr = result.group( 4 );
-        WordType type = WordType.fromAbbreviation( typeStr.toLowerCase() );
-        String desc = result.group( 5 );
-        scanner.close();
        	return new Word( text, type , desc);
    }
 

@@ -819,3 +819,7 @@ a (pro) - pronoun
 one (pro) - pronoun
 two (pro) - pronoun
 many (pro) - pronoun
+not one (pro) - pronoun
+every (pro) - pronoun
+this (pro) - pronoun
+that (pro) - pronoun
