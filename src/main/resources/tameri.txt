@@ -57,7 +57,7 @@ antithesis (n) - a direct opposite
 antithetic (adj) - opposite, contrast
 aplomb (n) - self-confidence; perpendicularity
 apocryphal (adj) - false, counterfeit, questionable sources
-apostate (n/adj) - one who forsakes his religion or principles; renegade, traitor
+apostate (n) - one who forsakes his religion or principles; renegade, traitor
 apathy (n) - lack of caring, indifference
 ape (v) - to imitate, mimic
 apex (n) - tip, summit, climax
@@ -74,7 +74,7 @@ assuage (v) - to ease, relieve
 astringent (adj) - harsh, severe; tightening living tissue
 audacious (adj) - daring, fearless; reckless. audacity (n)
 augment (v) - increase, add to
-augur (n/v) - prophet; to predict, to prophesy
+augur (n) - prophet; to predict, to prophesy
 austere (adj) - ascetic; bare, severely simple
 avarice (n) - greed
 aver (v) - to affirm
@@ -109,8 +109,8 @@ caustic (adj) - corrosive; burning, stinging
 celerity (n) - speed, rapidity
 censure (v) - to rebuke officially
 chary (adj) - wary, cautious
-chicanery (n) trickery, mischief
-churlish - (adj) surly, ill-tempered
+chicanery (n) - trickery, mischief
+churlish (adj) - surly, ill-tempered
 circumlocution (n) - roundabout speech; confusing tale
 climactic (adj) - relating to the highest point
 cloy (v) - to make weary by too much of anything pleasant; satiate, surfeit
@@ -166,7 +166,9 @@ deliberate (v) - consider, ponder
 demur (v) - to question; to oppose
 deplete (v) - reduce, exhaust
 deposition (n) - testimony under oath
-depraved (v/adj) - made corrupt, perverted, damaged. depravity (n)
+depravity (n) - made corrupt, perverted, damaged.
+depraved (v) - made corrupt, perverted, damaged.
+depraved (adj) - made corrupt, perverted, damaged.
 derelict (adj) - abandoned
 derision (n) - scorn, ridicule, contempt
 derivative (adj) - unoriginal, derived from another source
@@ -232,7 +234,8 @@ epitome (n) - perfect example of embodiment
 epoch (n) - period of time
 equivocal (adj) - ambiguous, intentionally confusing. equivocate (v), equivocation (n)
 equivocate (v) - lie, mislead, attempt to conceal the truth
-ersatz (n/adj) - substitute; inferior type
+ersatz (n) - substitute; inferior type
+ersatz (adj) - substitute; inferior type
 erudite (adj) - scholarly, learned. erudition (n)
 erudition (n) - high degree of knowledge and learning
 esoteric (adj) - understood by few; intended for a minority; trivial
@@ -287,7 +290,8 @@ froward (adj) - willful, obstinate; adverse
 fulminate (v) - to loudly denounce; to attack
 fulsome (adj) - offensively excessive; fawning
 furtive (adj) - stealth, covert, surreptitious
-fusillade (n/v) - continuous discharge of many weapons; rapid verbal attack. fusilladed (v), fusillading (v)
+fusillade (n) - continuous discharge of many weapons; rapid verbal attack. fusilladed (v), fusillading (v)
+fusillade (v) - continuous discharge of many weapons; rapid verbal attack. fusilladed (v), fusillading (v)
 futile (adj) - useless, hopeless, ineffectual
 gainsay (v) - to speak against, to oppose, to deny
 galvanize (v) - stimulate by shock, stir up
@@ -342,7 +346,8 @@ idyllic (adj) - simple, charming; rustic
 ignominious(adj) - deeply disgraceful, shameful
 imbroglio (n) - complicated situation
 immune (adj) - resistant to, free or exempt from
-immutable (adj) unchanging; constant
+immutable (n) - unchanging; constant
+immutable (adj) - unchanging; constant
 impervious (adj) - resistant, strong, incapable of being affected
 impalpable (adj) - imperceptible, intangible
 impassive (adj) - without emotion; controlled
@@ -451,7 +456,8 @@ materiel (n) - all things used by an army, weapons
 maverick (n) - an independent
 meddlesome (adj) - interfering
 meditation (n) - reflection; though
-melancholy (adj/n) - sadness, gloom
+melancholy (adj) - sadness, gloom
+melancholy (n) - sadness, gloom
 mellifluous (adj) - sweet like/as honey
 mendacious (adj) - dishonest. mendacity (n)
 mercurial (adj) - unpredictable; violent moods
@@ -475,7 +481,8 @@ mollify (v) - to calm, to reduce
 monarchy (n) - government under a single ruler
 monotheism (n) - belief in one God
 moot (adj) - debatable; controversial; hypothetical
-mordant (adj/n) - biting, cutting, sarcastic; acute, burning; corrosive; acid that eats into metal. mordacious
+mordant (adj) - biting, cutting, sarcastic; acute, burning; corrosive; acid that eats into metal. mordacious
+mordant (n) - biting, cutting, sarcastic; acute, burning; corrosive; acid that eats into metal. mordacious
 mores (n) - conventions; moral standards
 moribund (adj) - near death
 morose (adj) - sad, sullen, melancholy
@@ -567,7 +574,7 @@ peruse (v) - to examine carefully
 pervade (v) - to permeate; to spread. pervasive (adj)
 petulant (adj) - given to fits; moody
 phlegmatic (adj) - calm, sluggish; unemotional
-pique (n) : irritation; resentment
+pique (n) - irritation; resentment
 pillory (v) - to attack; to ridicule
 pine (v) - to yearn, to desire; to languish, to decline
 pious (adj) - devout, religious
@@ -577,23 +584,24 @@ pith (n) - the central part
 pithy (adj) - precise, brief
 placate (v) - to pacify, to soothe; to appease
 platitude (n) - superficial remark
-plauditory (adj) : approving; applauding
-plenary (adj) : complete; full
-plenitude (n) : abundance; completeness
+plauditory (adj) - approving; applauding
+plenary (adj) - complete; full
+plenitude (n) - abundance; completeness
 plethora (n) - a surplus, an abundance
 plumb (v) - to explore; to test the depth
 plummet (v) - to plunge, to drop
 polemic (n) - argument; controversial statement. polemical (adj)
-potent (adj) : powerful; persuasive
+potent (adj) - powerful; persuasive
 pragmatic (adj) - practical
 prattle (v) - to babble, to ramble
-preamble (n) : introductory statement
-precipitate (v/adj) - to cause; acting in haste, impulsive
+preamble (n) - introductory statement
+precipitate (v) - to cause; acting in haste, impulsive
+precipitate (adj) - to cause; acting in haste, impulsive
 precursor (n) - one that indicates; signal of something to come
 predilection (n) - disposition, preference
 preen (v) - to primp, to groom
-prefatory (adj) : introductory
-preposterous (adj) : absurd; ridiculous
+prefatory (adj) - introductory
+preposterous (adj) - absurd; ridiculous
 prescience (n) - foreknowledge
 presumptuous (adj) - overstepping; taking liberties
 prevaricate (v) - to lie evasively. prevarication
@@ -605,11 +613,11 @@ prodigious (adj) - abundant; extraordinary
 profligate (adj) - reckless, lavish, wasteful, extravagant
 profundity (n) - depth of thought, wisdom
 profuse (adj) - abundant; extravagant; given generously
-prognosticate (v) : predict
+prognosticate (v) - predict
 proliferate (v) - to grow, to increase swiftly. proliferation (n)
 prolific (adj) - productive; producing in abundance
 prolix (adj) - wordy, long-winded
-promiscuous (adj) : indiscriminate
+promiscuous (adj) - indiscriminate
 propensity (n) - inclincation, tendency; penchant
 propinquity (n) - nearness; affinity
 propitiate (v) - to appease, to sway, to convince
@@ -653,7 +661,9 @@ renaissance (n) - revival, rebirth, rediscovery. renascence (alt sp)
 renege (v) - to fail a commitment; to break a promise
 renitent (adj) - resisting pressure
 repertoire (n) - list of works of music
-reprobate (v/adj/n) - to reject; rejected, depraved; someone rejected by others
+reprobate (v) - to reject; rejected, depraved; someone rejected by others
+reprobate (adj) - to reject; rejected, depraved; someone rejected by others
+reprobate (n) - to reject; rejected, depraved; someone rejected by others
 reprobation (n) - severe disapproval
 reprove (v) - to blame; to rebuke
 repudiate (v) - to reject, to ignore authority; to disown
@@ -673,13 +683,15 @@ sagacious (adj) - shrewed, wise
 salacious (adj) - lustful
 salubrious (adj) - promoting health
 salutary (adj) - tending to improve; beneficial
-sanction (n/v) - permission, authorized; a penalty
+sanction (n) - permission, authorized; a penalty
+sanction (v) - permission, authorized; a penalty
 sanguine (adj) - cheerful; hopeful
 sapient (adj) - wise; shrewd
 satiate (v) - to feed fully; satisfy fully; to disgust with too much; glut, cloy
 satire (n) - literary ridicule of a vice. satiric (adj)
 saturnine (adj) - gloomy; sluggish
-savor (n/v) - the teaste of; to enjoy
+savor (n) - the teaste of; to enjoy
+savor (v) - the teaste of; to enjoy
 scupper (v) - to sink intentionally, damage in a way that dooms
 scurrilous (adj) - vulgar; coarse
 sedulous (adj) - diligent, persistent
@@ -714,7 +726,8 @@ supercilious (adj) - arrogant; patronizing
 supplant (v) - to supersede, to replace
 suppress (v) - crush, subdue, inhibit
 suppurating (v) - festering, ulcering. suppurate (v), supperation (n)
-surfeit (n/v) - excess, overindulgence; to extreme; satiate; stuff
+surfeit (n) - excess, overindulgence; to extreme; satiate; stuff
+surfeit (v) - excess, overindulgence; to extreme; satiate; stuff
 surreptitious (adj) - done secretly; stealth
 synthesis (n) - combining of parts; a merging
 tacit (adj) - implied quietly; existing out of custom
@@ -786,7 +799,8 @@ vulnerable (adj) - susceptible to wounds
 voracious (adj) - ravenous; insatiable need to pursue
 wane (v) - decrease in size or strength
 wangle (v) - bring about by manipulation
-welter (n/v) - turmoil; to roll, to tumble
+welter (n) - turmoil; to roll, to tumble
+welter (v) - turmoil; to roll, to tumble
 wheedle (v) - to influence, to entice with flattery
 whet (v) - sharpen; stimulate
 winnow (v) - to blow free; to separate
@@ -800,3 +814,8 @@ yoke (v) - join together, unite
 zealot (n) - fanat
 zealous (adj) - ardent, impassioned, fervent
 zymotic (adj) - of fermentation; caused by disease
+the (pro) - pronoun
+a (pro) - pronoun
+one (pro) - pronoun
+two (pro) - pronoun
+many (pro) - pronoun
