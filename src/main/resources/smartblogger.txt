@@ -158,36 +158,42 @@ worrysome (adj)
 wound (n,v)
 wounded (adj)
 # pep words
-brazen
-crave
-depraved
-dirty
-exposed
-forbidden
-hypnotic
-lascivious
-lick
-lonely
-lust
-naked
-naughty
-provocative
-scandalous
-sensual
-sex
-shameless
-sinful
-sleazy
-sleeping
-spank
-steamy
-sweaty
-tantalizing
-tawdry
-thrilling
-uncensored
-wanton
-whip
+brazen (adj)
+crave (v)
+depravity (n)
+depraved (adj)
+dirty (v,adj)
+exposed (v,adj)
+forbidden (adj)
+hypnotic (adj)
+hypnotize (v)
+lascivious (adj)
+lick (v,n)
+lonely (adj)
+lust (n,v)
+naked (adj)
+naughty (adj)
+provocative (adj)
+scandal (n)
+scandalous (adj)
+sensual (adj)
+sex (n,v)
+sexy (adj)
+sexily (adv)
+shame (n,v)
+shameless (adj)
+sinful (adj)
+sleazy (adj)
+sleeping (adj)
+spank (v)
+steamy (adj)
+sweaty (adj)
+tantalizing (adj)
+tawdry (adj)
+thrilling (adj)
+uncensored (adj)
+wanton (adj)
+whip (n,v)
 # lacivious words
 brazen
 crave
