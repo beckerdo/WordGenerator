@@ -112,40 +112,51 @@ poison (v)
 poisoned (adj)
 pummel (v)
 pummeled (adj)
-poor
-prison
-pus
-reckoning
-refugee
-revenge
-risky
-scary
-scream
-searing
-shatter
-shellacking
-silly
-slaughter
-slave
-smash
-strangle
-stupid
-suck
-tailspin
-tank
-targeted
-teetering
-terror
-terrorist
-toxic
-trap
-vaporize
-victim
-volatile
-vulnerable
-warning
-worry
-wounded
+poor (n,adj)
+prison (n)
+pus (n)
+reckoning (n)
+refugee (n)
+revenge (n)
+risk (n,v)
+risky (adj)
+scare (n,v)
+scary (adj)
+scream (n,v)
+sear (v)
+searing (adj)
+shatter (v)
+shellacking (n)
+silly (adj)
+slaughter (n,v)
+slave (n,v)
+smash (v)
+smashing (adj)
+strangle (v)
+stupid (adj)
+suck (v)
+tailspin (n,v)
+tank (n,v))
+targeted (adj,v)
+teeter (v)
+teetering (adj)
+terror (n)
+terrorize (v) 
+terrorist (n)
+toxic (adj)
+trap (n,v)
+trapped (adj)
+vapor (n)
+vaporize (v)
+victim (n)
+victimized (adj)
+volatile (adj)
+vulnerable (adj)
+warning (n,v)
+worry (n,v)
+worrysome (adj)
+wound (n,v)
+wounded (adj)
 # pep words
 brazen
 crave
